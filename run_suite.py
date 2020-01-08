@@ -13,7 +13,7 @@ suite = unittest.TestSuite()
 # 员工管理测试套件
 suite.addTest(unittest.makeSuite(TestEmp))
 # 员工登录模块测试套件
-# suite.addTest(unittest.makeSuite(TestLoginScript))
+suite.addTest(unittest.makeSuite(TestLoginScript))
 # 确认测试报告路径和报告名称
 report_path = BASE_DIR + "/report/ihrm.html"
 # 运行测试用例并生成测试报告
