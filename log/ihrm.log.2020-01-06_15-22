@@ -1,8 +1,0 @@
-2020-01-06 15:22:57,654 INFO [root] [__init__.py(<module>:8)] - 日志可以打印
-2020-01-06 15:22:58,000 INFO [root] [emp_all.py(test_00_login:44)] - 登录接口的返回数据为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '3a4d3f5a-e65c-41c3-b563-a1c866e4f7dc'}
-2020-01-06 15:22:58,000 INFO [root] [emp_all.py(test_00_login:52)] - 保存的令牌为:{'Content-Type': 'application/json', 'Authorization': 'Bearer 3a4d3f5a-e65c-41c3-b563-a1c866e4f7dc'}
-2020-01-06 15:22:58,076 INFO [root] [emp_all.py(test_01_add_emp:65)] - 添加后返回的数据为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1214084927867670528'}}
-2020-01-06 15:22:58,151 INFO [root] [emp_all.py(test_02_get_emp:82)] - 查询后返回数据为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1214084927867670528', 'mobile': '17465678944', 'username': '立gay我里giai3', 'password': '10f39bc054bdb1866ec91ecb79663cfd', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1210411411066695680', 'timeOfEntry': '2019-12-02T00:00:00.000+0000', 'formOfEmployment': 1, 'workNumber': '1234', 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2019-12-15T16:00:00.000+0000', 'inServiceStatus': None, 'departmentName': '测试', 'roleIds': [], 'staffPhoto': None}}
-2020-01-06 15:22:58,228 INFO [root] [emp_all.py(test_03__update_emp:96)] - 修改后返回的数据为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1214084927867670528'}}
-2020-01-06 15:22:58,403 INFO [root] [emp_all.py(test_03__update_emp:104)] - 数据库返回数据为:里给我里giaogiao
-2020-01-06 15:22:58,480 INFO [root] [emp_all.py(test_04_delete_emp:121)] - 删除后返回的数据为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
