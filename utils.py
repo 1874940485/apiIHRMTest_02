@@ -10,6 +10,7 @@ def assert_common(self, response, http_code, success, code, message):
     self.assertIn(message, response.json().get("message"))  # 断言
 
 
+# 封装数据库连接
 class DBUtil(object):
     """数据库类"""
 
@@ -33,7 +34,7 @@ class DBUtil(object):
 
     def __exit__(self, exc_type, exc_val, exc_tb):
         """数据库后置操作"""
-        if self.cursor:     # 如果数据库连接存在,就关闭
+        if self.cursor:  # 如果数据库连接存在,就关闭
             self.cursor.close()
-        if self.conn:       # 如果游标对象存在，就关闭
+        if self.conn:  # 如果游标对象存在，就关闭
             self.conn.close()
