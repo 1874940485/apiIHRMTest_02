@@ -15,7 +15,7 @@ def read_login_data():
                                  data.get('http_code'),
                                  data.get("success"),
                                  data.get("code"),
-                                 data.get("message")))
+                             data.get("message")))
 
     print(data_my_list)
     return data_my_list
