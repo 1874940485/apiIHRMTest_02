@@ -17,6 +17,7 @@ def read_add_emp_data():
         code = add_emp_data.get("code")
         message = add_emp_data.get("message")
         data_list.append((username, mobile, http_code, success, code, message))
+        print("添加新内容")
     return data_list
 
 
