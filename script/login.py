@@ -28,7 +28,7 @@ class Login(unittest.TestCase):
     def test_login(self):
         """登录成功接口测试用例"""
         # 调用登录接口函数
-        response = self.login_api.login_inerface("13800000002", "123456")
+        response = self.login_api.login_interface("13800000002", "123456")
         # 获取接口返回数据
         json_data = response.json()
         # print("登录接口的返回数据为", json_data)
